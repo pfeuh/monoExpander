@@ -20,7 +20,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#define VERSION "1.00"
+#define VERSION "1.01"
 #define APP_NAME "Mono expander"
 
 #define AUDIO_OUTPUT_PIN 9

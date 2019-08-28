@@ -225,7 +225,7 @@ byte MONO_EXPANDER_MOTOR::getPriority()
 
 void MONO_EXPANDER_MOTOR::setPriority(byte _priority)
 {
-    if(priority <= MONO_EXPANDER_PRIORITY_MAX)
+    if(_priority <= MONO_EXPANDER_PRIORITY_MAX)
         priority = _priority != 0;
 }
 
